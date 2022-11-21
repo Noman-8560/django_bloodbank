@@ -273,3 +273,4 @@ def change_order_status(request,pid):
         data.save()
     messages.success(request, "Order Status changed successfully")
     return redirect('all_order')
+
